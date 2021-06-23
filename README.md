@@ -36,4 +36,4 @@ Verify the deployment by navigating to your server address in your preferred bro
 > Note: The Above Docker Commands wont build a proper container, as `host.docker.internal` does not resolves to an IP address allowing network access to the host incase of ***Linux***.
 Issue Link:  ```https://github.com/docker/for-linux/issues/264```
 
-## THANK YOU
+## THANK YOU!
