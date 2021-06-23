@@ -2,7 +2,7 @@
 
 ## Installation
 
-Requires [Docker and Docker-compose](https://docs.docker.com/compose/install/) v1.29+ to run.
+Requires [Docker and Docker-compose](https://docs.docker.com/compose/install/) v1.29+ to run1.
 
 Pull the repository
 **_Using docker and docker-compose:_**
