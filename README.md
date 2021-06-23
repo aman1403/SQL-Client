@@ -1,21 +1,39 @@
 # ArcType Assignment
 
-## Running_instructions
+## Installation
 
-**_Pull the code:_**
-```
+Requires [Docker and Docker-compose](https://docs.docker.com/compose/install/) v1.29+ to run1.
+
+Pull the repository
+**_Using docker and docker-compose:_**
+
+```sh
 git pull
 ```
-**_Using docker and docker-compose:_**
-```
-docker-compose build --no-cache && docker-compose up -d
+
+```sh
+docker-compose build --no-cache
 ```
 
-**_Client   [  React Application  ]:_**
+```sh
+docker-compose up -d
 ```
-localhost:3000
+
+## Docker
+
+Once done, you can access the client as well as server running on ports 3000 and 5000 respectively
+
+Verify the deployment by navigating to your server address in your preferred browser.
+
+```sh
+127.0.0.1:3000                                              #React-Client
 ```
-**_Server   [ Express API  ]:_**
+
+```sh
+127.0.0.1:5000                                              #Express-API
 ```
-localhost:5000
-```
+
+> Note: The Above Docker Commands wont build a proper container, as `host.docker.internal` does not resolves to an IP address allowing network access to the host incase of ***Linux***.
+Issue Link:  ```https://github.com/docker/for-linux/issues/264```
+
+## THANK YOU
