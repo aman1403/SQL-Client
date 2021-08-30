@@ -1,4 +1,4 @@
-# ArcType Assignment
+# SQL Client
 
 ## Installation
 
